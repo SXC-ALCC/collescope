@@ -1,4 +1,4 @@
-<h4>What is collescope</h4>
+## ColleScope
 <p>This project is built to provide a comprehensive API listing colleges in Nepal. Whether you're a student searching for educational institutions or a developer needing a dataset of colleges, this  aims to serve as a helpful resource. </p>
 
 ## Contributing
