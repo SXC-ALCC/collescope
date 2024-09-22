@@ -1,8 +1,4 @@
-<p align="center">
-<a href="https://collescope-stuti-projects.vercel.app/"><img src="https://collescope-stuti-projects.vercel.app/static/images/collescope.png" alt="logo"/></a>
-</p>
-
-<h4>What is College API?</h4>
+<h4>What is collescope</h4>
 <p>This project is built to provide a comprehensive API listing colleges in Nepal. Whether you're a student searching for educational institutions or a developer needing a dataset of colleges, this  aims to serve as a helpful resource. </p>
 ---
 
@@ -18,6 +14,3 @@ See the [contributing guide](https://github.com/SXC-ALCC/collescope/blob/main/co
 
 This project is distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-## Contributors
-
-[![Contributors](https://contrib.rocks/image?repo=SXC_ALCC/collescope)](https://github.com/SXC-ALCC/collescope/graphs/contributors)
