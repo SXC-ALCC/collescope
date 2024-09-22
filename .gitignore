@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env
+*.env
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Static files
+/static/css/*.css.map
+/static/js/*.js.map
+
+# Logs
+*.log
+.vercel

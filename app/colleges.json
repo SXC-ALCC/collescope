@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "name": "St. Xavier's College",
+      "location": "Maitighar",
+      "website": "https://sxc.edu.np/"
+    },
+    {
+      "id":2,
+      "name":"Rato Bangala School",
+      "location":"Patan Dokha",
+      "website":"https://ratobangala.edu.np"
+    }
+  ]
+  
