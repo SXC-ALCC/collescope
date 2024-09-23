@@ -47,7 +47,8 @@ uvicorn app.main:app --reload
     "id": 3,
     "name": "College Name",
     "location": "Location of the College",
-    "website": "https://college-website.com"
+    "website": "https://college-website.com",
+    "logo":"https://college-logo.png"
   }
 id: This should be a unique number. Increment the highest existing id by 1.
 

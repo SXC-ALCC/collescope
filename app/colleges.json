@@ -3,20 +3,23 @@
       "id": 1,
       "name": "St. Xavier's College",
       "location": "Maitighar",
-      "website": "https://sxc.edu.np/"
+      "website": "https://sxc.edu.np/",
+      "logo": "https://sxc.edu.np/uploads/page/Screenshot_2-file-20230223100109-490.png"
     },
     {
       "id":2,
       "name":"Rato Bangala School",
       "location":"Patan Dokha",
-      "website":"https://ratobangala.edu.np"
+      "website":"https://ratobangala.edu.np",
+      "logo": "https://ratobangala.edu.np/web/image/res.company/1/logo?unique=902184a"
     },
     
     {
       "id":3,
       "name":"St. Xavier's School Jawalakhel",
       "location":"Jawalakhel, Lalitpur",
-      "website":"https://stx.edu.np/"
+      "website":"https://stx.edu.np/",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVBFAwBEuNW0nsPnWKfUoTDLQrtkgaOJ030Q&s"
     }
 
   ]
