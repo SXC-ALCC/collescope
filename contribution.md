@@ -50,13 +50,16 @@ uvicorn app.main:app --reload
     "website": "https://college-website.com",
     "logo":"https://college-logo.png"
   }
-id: This should be a unique number. Increment the highest existing id by 1.
+  ```
+  id: This should be a unique number. Increment the highest existing id by 1.
 
-name: The full name of the college.
+  name: The full name of the college.
 
-location: The location or address of the college.
+  location: The location or address of the college.
 
-website: The official website of the college (ensure it starts with https:// for proper formatting).
+  website: The official website of the college (ensure it starts with https:// for proper formatting).
+
+  logo: The official logo of the college (ensure it starts with https:// fot proper formatting).
 
 - Save the changes and do the steps of contrubuting as instructed.
 
