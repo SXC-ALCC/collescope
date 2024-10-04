@@ -9,6 +9,15 @@
 
 ---
 
+## Vision
+
+- A directory of colleges across Nepal
+- Access to key details such as courses, programs, and facilities
+- Updates on admission processes and deadlines
+- Open-source contributions to enhance and expand the dataset
+
+---
+
 ## 🤝 Contributing
 
 Open-source thrives on collaboration! Contributions to **ColleScope**—whether big or small—are what help keep the project alive, creative, and constantly improving. You can get involved by:
