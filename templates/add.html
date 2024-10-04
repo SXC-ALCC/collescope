@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <div class="add-college-div">
+        <h1>Add New College</h1>
+        <div class="acd-mid">
+            <form action="add" method="post" class="add-college-form">
+                <label>Name:</label>
+                <div class="input-div">
+                    <i class="fas fa-home"></i>
+                    <input type="text" name="name" id="name" required>
+                </div>
+    
+                <label>Location:</label>
+                <div class="input-div">
+                    <i class="fas fa-map-marker"></i>
+                    <input type="text" name="location" id="location" required>
+                </div>
+    
+                <label>Website:</label>
+                <div class="input-div">
+                    <i class="fas fa-link"></i>
+                    <input type="url" name="website" id="website" required>
+                </div>
+    
+                <label>Logo:</label>
+                <div class="input-div">
+                    <i class="fas fa-link"></i>
+                    <input type="url" name="logo" id="logo" required>
+                </div>
+
+                <div class="input-div">
+                    <input type="submit" value="Add">
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}

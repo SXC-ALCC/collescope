@@ -1,4 +1,8 @@
 const apiBaseUrl = "https://collescope.vercel.app/colleges";
+
+// Uncomment the line below during development
+// const apiBaseUrl = "/colleges";
+
 let colleges = []; 
 
 document.addEventListener("DOMContentLoaded", fetchColleges);
