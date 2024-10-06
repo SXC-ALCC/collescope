@@ -1,34 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ColleScope</title>
-  <link rel="stylesheet" href="/static/style.css">
-  <link rel="shortcut icon" href="/static/images/collescope.png" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400&display=swap" rel="stylesheet">
-</head>
-<body>
+{% extends "layout.html" %}
 
-  <nav>
-    <div class="navbar">
-      <h1>ColleScope</h1>
-      <input type="text" id="searchInput" placeholder="Search College" oninput="searchCollege()" />
+{% block main %}
+    <div class="filter-container">
+        <label for="locationFilter">Filter by location: </label>
+        <select id="locationFilter" onchange="filterByLocation()">
+            <option value="all">All</option>
+        </select>
     </div>
-  </nav>
 
-  <div class="filter-container">
-    <label for="locationFilter">Filter by location: </label>
-    <select id="locationFilter" onchange="filterByLocation()">
-      <option value="all">All</option>
-    </select>
-  </div>
-
- 
-  <div id="cards-container" class="cards-container"></div>
-
-  <script src="/static/script.js"></script>
-</body>
-</html>
+    <div id="cards-container" class="cards-container"></div>
+{% endblock %}

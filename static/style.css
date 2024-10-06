@@ -20,6 +20,11 @@ body {
   color: white;
 }
 
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
 .navbar h1 {
   font-size: 24px;
 }
@@ -85,3 +90,59 @@ body {
 .card a:hover {
   text-decoration: underline;
 }
+
+.add-college-div {
+  text-align: center;
+}
+
+.add-college-div h1 {
+  margin: 40px 0 40px 0;
+}
+
+.acd-mid {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.add-college-form {
+  color: white;
+  background-color: #333;
+  text-align: left;
+  padding: 30px 50px;
+  border-radius: 5px;
+}
+
+.add-college-form .input-div {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.add-college-form .input-div i {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  color: black;
+  background-color: rgb(197, 196, 196);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.add-college-form .input-div input[type="text"],
+.add-college-form .input-div input[type="url"] {
+  width: 100%;
+  font-size: 15px;
+  padding: 0 5px;
+  border: 1px solid white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.add-college-form .input-div input[type="submit"] {
+  padding: 6px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
