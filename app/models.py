@@ -6,3 +6,4 @@ class College(BaseModel):
     name: str
     location: str
     website: str
+    logo: str

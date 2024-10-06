@@ -39,9 +39,12 @@ function displayColleges(colleges) {
     card.classList.add("card");
 
     card.innerHTML = `
-      <h3>${college.name}</h3>
-      <p><strong>Location:</strong> ${college.location}</p>
-      <p><a href="${college.website}" target="_blank">Visit Website</a></p>
+      <div>
+        <h3>${college.name}</h3>
+        <p><strong>Location:</strong> ${college.location}</p>
+        <p><a href="${college.website}" target="_blank">Visit Website</a></p>
+      </div>
+      <img src="${college.logo}">
     `;
 
     container.appendChild(card);
