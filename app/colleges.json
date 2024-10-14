@@ -33,5 +33,12 @@
         "location": "Bagbazar, KTM",
         "website": "https://ktmmodelcollege.edu.np/",
         "logo": "https://ktmmodelcollege.edu.np/wp-content/uploads/2024/06/Website-logo-01.png"
+    },
+    {
+        "id": 6,
+        "name": "SOS Hermann Gmeiner School",
+        "location": "Sanothimi, Bhaktapur",
+        "website": "https://www.soshgssanothimi.edu.np/",
+        "logo": "https://wms.edigitalnepal.com/wms/files/ws-profile/1682915469517_b7a86efe-d042-4787-9abf-b227b51e1aee.png"
     }
 ]
