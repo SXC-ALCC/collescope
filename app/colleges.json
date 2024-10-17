@@ -40,5 +40,12 @@
         "location": "Sanothimi, Bhaktapur",
         "website": "https://www.soshgssanothimi.edu.np/",
         "logo": "https://wms.edigitalnepal.com/wms/files/ws-profile/1682915469517_9555e381-2c2c-4b20-9f70-0477cd3a8429.png"
-    }
+    },
+    {
+        "id": 7,
+        "name": "Xavier International University",
+        "location": "Boudha, Kathmandu",
+        "website": "https://xaviercollege.edu.np/",
+        "logo": "https://xaviercollege.edu.np/upload/images/company_profile/1667712802.png"
+    },
 ]
