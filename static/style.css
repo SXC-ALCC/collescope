@@ -74,6 +74,7 @@ body {
 }
 
 .card img {
+  height: 130px;
   width: 120px;
 }
 
